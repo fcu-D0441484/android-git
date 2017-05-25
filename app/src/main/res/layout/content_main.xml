@@ -14,34 +14,32 @@
     tools:showIn="@layout/activity_main">
 
     <LinearLayout
-        android:orientation="vertical"
+    android:layout_width="380dp"
+    android:layout_height="507dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:layout_editor_absoluteX="7dp"
+    tools:layout_editor_absoluteY="4dp">
+
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="歡迎使用寵愛遺生"
+        android:textColor="#F50896"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="User Name"/>
+    <ListView
+        android:id="@+id/LV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp"></ListView>
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Password"/>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:text="Login"
-            android:layout_width="128dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/button" />
-
-    </LinearLayout>
+</LinearLayout>
 
 </RelativeLayout>
