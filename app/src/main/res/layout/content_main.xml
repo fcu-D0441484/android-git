@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:gravity="center"
-        android:text="歡迎使用寵愛遺生"
+        android:text="歡迎使用寵愛一生"
         android:textColor="#F50896"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="0dp"

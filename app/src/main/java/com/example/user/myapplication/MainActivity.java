@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         ListView list = (ListView)findViewById(R.id.LV);
         ArrayList alist=new ArrayList<Pet_Item>();
-        Pet_Item item1=new Pet_Item(R.drawable.stray_pet,"浪浪資訊");
+        Pet_Item item1=new Pet_Item(R.drawable.stray_pet,"寵物資訊");
         Pet_Item item2=new Pet_Item(R.drawable.pet_item,"製作寵物周邊");
         Pet_Item item3=new Pet_Item(R.drawable.pet_background,"寵物桌布");
         alist.add(item1);
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "歡迎來信回報Bug     clk91095@yahoo.com.tw", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });

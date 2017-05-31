@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="寵愛遺生"
+            android:label="寵愛一生"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,7 @@
         </activity>
         <activity
             android:name=".Pet_strayData"
-            android:label="浪浪資訊˙(     \*/   )˙"
+            android:label="動物資訊˙(     \*/   )˙"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Pet_produce_select"
