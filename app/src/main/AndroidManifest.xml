@@ -25,6 +25,34 @@
         <activity
             android:name=".Pet_produce_select"
             android:label="樣式選擇"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pet1"
+            android:label="此地區中一動物(更多請按上頁''更多')"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pet2"
+            android:label="此地區中一動物(更多請按上頁''更多')"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pet3"
+            android:label="此地區中一動物(更多請按上頁''更多')"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pet4"
+            android:label="此地區中一動物(更多請按上頁''更多')"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pet5"
+            android:label="此地區中一動物(更多請按上頁''更多')"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pet6"
+            android:label="此地區中一動物(更多請按上頁''更多')"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pet7"
+            android:label="此地區中一動物(更多請按上頁''更多')"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
