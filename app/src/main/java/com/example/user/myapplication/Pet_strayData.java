@@ -49,7 +49,7 @@ public class Pet_strayData extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "歡迎來信回報Bug     clk91095@yahoo.com.tw", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "歡迎來信回報Bug     ckes15owen@gmail.com", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
